@@ -1,0 +1,13 @@
+{
+    "users": [
+      { "id": 1, "username": "admin", "password": "martha@123", "is_admin": true, "token": "mock-token-123" }
+    ],
+    "products": [
+      { "id": 1, "name": "Sample Product 1", "price": 99.99 },
+      { "id": 2, "name": "Sample Product 2", "price": 149.99 }
+    ],
+    "orders": [
+      { "id": 1, "customer": "Jane Doe", "status": "Pending", "total": 99.99 },
+      { "id": 2, "customer": "John Smith", "status": "Shipped", "total": 149.99 }
+    ]
+  }
