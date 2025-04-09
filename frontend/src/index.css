@@ -1,0 +1,64 @@
+/* filepath: src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #111010; /* Black background */
+    color: #ff0000; /* Red text */
+  }
+
+/* Custom styles */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+h5 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+h6 {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #ff0000; /* Red text */
+}
+p {
+    font-size: 1rem;
+    color: #ff0000; /* Red text */
+}
+a {
+    color: #ff0000; /* Red text */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+button {
+    background-color: #00a2ff; /* Red background */
+    color: #fff; /* White text */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
